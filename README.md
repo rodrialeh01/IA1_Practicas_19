@@ -1,4 +1,4 @@
-# 📡 Laboratorio de Inteligencia Artificial 1
+# 🤖 Laboratorio de Inteligencia Artificial 1
 ## 🧑‍💻🧑‍💻 Grupo 9
 | Carnet | Nombre |
 | ------ | ------ |
