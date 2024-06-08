@@ -1,0 +1,37 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "correcto_existe&Sequence_4",
+        "priceTemp&Sequence_7",
+        "existe_precio&Sequence_6",
+        "authorTemp&Sequence_6",
+        "titleTemp&Sequence_6",
+        "error_existe&Sequence_4",
+        "ruta_salida&Sequence_2",
+        "excel_salida&Sequence_2",
+        "ruta&Sequence_2",
+        "Indice&Sequence_4",
+        "contadorGlobal&Sequence_4",
+        "isbnTemp&Sequence_4",
+        "contadorRow&Sequence_4",
+        "datos&Sequence_2",
+        "excel_entrada&Sequence_2",
+        "carpeta_archivos&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
