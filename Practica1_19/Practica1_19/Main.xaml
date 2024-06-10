@@ -146,12 +146,12 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="carpeta_archivos" CacheStrategy="None" DisplayName="Get Asset" FolderPath="teamia192024@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="641.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="carpeta_archivos_salida" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Practica1_#19" sap:VirtualizedContainerService.HintSize="641.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
               <ui:GetRobotAsset.Value>
                 <OutArgument x:TypeArguments="x:String">[carpeta_archivos]</OutArgument>
               </ui:GetRobotAsset.Value>
             </ui:GetRobotAsset>
-            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="excel_salida" CacheStrategy="None" DisplayName="Get Asset" FolderPath="teamia192024@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="641.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_3">
+            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="excel_salida" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Practica1_#19" sap:VirtualizedContainerService.HintSize="641.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_3">
               <ui:GetRobotAsset.Value>
                 <OutArgument x:TypeArguments="x:String">[excel_salida]</OutArgument>
               </ui:GetRobotAsset.Value>
