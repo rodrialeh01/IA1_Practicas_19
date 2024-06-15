@@ -8,3 +8,4 @@
 
 - ## Prácticas
     - #### [`💻 Práctica 1`](./Practica1_19/)
+    - #### [`💻 Práctica 2`](./Practica2_19/)

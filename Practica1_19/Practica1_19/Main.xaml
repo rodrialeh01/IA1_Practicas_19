@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="860,7141.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1243,7137" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -113,19 +113,19 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="800,7076.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="800,7072" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: The World's Largest Book Database - ISBN Database | ISBNdb" sap:VirtualizedContainerService.HintSize="737.6,6988" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d6914da4-02b3-4dfa-bce1-aed76308ada9" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: The World's Largest Book Database - ISBN Database | ISBNdb" sap:VirtualizedContainerService.HintSize="738,6984" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d6914da4-02b3-4dfa-bce1-aed76308ada9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="704,6748" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="704,6744" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="carpeta_archivos" />
               <Variable x:TypeArguments="x:String" Name="excel_entrada" />
@@ -146,17 +146,17 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="carpeta_archivos_salida" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Practica1_#19" sap:VirtualizedContainerService.HintSize="641.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="carpeta_archivos_salida" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Practica1_#19" sap:VirtualizedContainerService.HintSize="642,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
               <ui:GetRobotAsset.Value>
                 <OutArgument x:TypeArguments="x:String">[carpeta_archivos]</OutArgument>
               </ui:GetRobotAsset.Value>
             </ui:GetRobotAsset>
-            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="excel_salida" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Practica1_#19" sap:VirtualizedContainerService.HintSize="641.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_3">
+            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="excel_salida" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Practica1_#19" sap:VirtualizedContainerService.HintSize="642,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_3">
               <ui:GetRobotAsset.Value>
                 <OutArgument x:TypeArguments="x:String">[excel_salida]</OutArgument>
               </ui:GetRobotAsset.Value>
             </ui:GetRobotAsset>
-            <Assign sap:VirtualizedContainerService.HintSize="641.6,114.4" sap2010:WorkflowViewState.IdRef="Assign_6">
+            <Assign sap:VirtualizedContainerService.HintSize="642,114" sap2010:WorkflowViewState.IdRef="Assign_6">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[ruta_salida]</OutArgument>
               </Assign.To>
@@ -164,29 +164,29 @@
                 <InArgument x:TypeArguments="x:String">[carpeta_archivos+"\"+excel_salida]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="641.6,819.2" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="[ruta_salida]">
+            <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="642,821" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="[ruta_salida]">
               <ui:ExcelApplicationScope.Body>
                 <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,677.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,679" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:ExcelWriteCell Cell="A1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="353.6,120" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_1" SheetName="Hoja1" Text="ISBN" />
-                    <ui:ExcelWriteCell Cell="B1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="353.6,120" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_2" SheetName="Hoja1" Text="title" />
-                    <ui:ExcelWriteCell Cell="C1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="353.6,120" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_3" SheetName="Hoja1" Text="Author" />
-                    <ui:ExcelWriteCell Cell="D1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="353.6,120" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_4" SheetName="Hoja1" Text="Price" />
-                    <ui:ExcelWriteCell Cell="E1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="353.6,111.2" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_5" SheetName="Hoja1" Text="Result" />
+                    <ui:ExcelWriteCell Cell="A1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="354,120" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_1" SheetName="Hoja1" Text="ISBN" />
+                    <ui:ExcelWriteCell Cell="B1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="354,120" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_2" SheetName="Hoja1" Text="title" />
+                    <ui:ExcelWriteCell Cell="C1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="354,120" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_3" SheetName="Hoja1" Text="Author" />
+                    <ui:ExcelWriteCell Cell="D1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="354,120" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_4" SheetName="Hoja1" Text="Price" />
+                    <ui:ExcelWriteCell Cell="E1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="354,111" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_5" SheetName="Hoja1" Text="Result" />
                   </Sequence>
                 </ActivityAction>
               </ui:ExcelApplicationScope.Body>
             </ui:ExcelApplicationScope>
-            <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Priority="{x:Null}" Reference="{x:Null}" Skip="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" Top="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="Equals" FolderPath="Practica1_#9" sap:VirtualizedContainerService.HintSize="641.6,175.2" sap2010:WorkflowViewState.IdRef="GetQueueItems_3" QueueItemStates="All" QueueName="ISBNs_9" Result="[itemscola]" />
-            <Assign sap:VirtualizedContainerService.HintSize="641.6,114.4" sap2010:WorkflowViewState.IdRef="Assign_11">
+            <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Priority="{x:Null}" Reference="{x:Null}" Skip="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" Top="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="Equals" FolderPath="Practica1_#19" sap:VirtualizedContainerService.HintSize="642,175" sap2010:WorkflowViewState.IdRef="GetQueueItems_3" QueueItemStates="All" QueueName="ISBNs_19" Result="[itemscola]" />
+            <Assign sap:VirtualizedContainerService.HintSize="642,114" sap2010:WorkflowViewState.IdRef="Assign_11">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:Int32">[contador]</OutArgument>
               </Assign.To>
@@ -194,13 +194,13 @@
                 <InArgument x:TypeArguments="x:Int32">2</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:ForEach x:TypeArguments="ui:QueueItem" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="641.6,5086.4" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[itemscola]">
+            <ui:ForEach x:TypeArguments="ui:QueueItem" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="642,5080" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[itemscola]">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="ui:QueueItem">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="ui:QueueItem" Name="currentQueueItem" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,4896" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,4891" sap2010:WorkflowViewState.IdRef="Sequence_9">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="variable_cola" />
                     </Sequence.Variables>
@@ -209,7 +209,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="545.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_8">
+                    <Assign sap:VirtualizedContainerService.HintSize="546,113" sap2010:WorkflowViewState.IdRef="Assign_8">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[indice]</OutArgument>
                       </Assign.To>
@@ -217,8 +217,8 @@
                         <InArgument x:TypeArguments="x:String">[contador.ToString]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Delay Duration="00:00:20" sap:VirtualizedContainerService.HintSize="545.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
-                    <Assign sap:VirtualizedContainerService.HintSize="545.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_10">
+                    <Delay Duration="00:00:20" sap:VirtualizedContainerService.HintSize="546,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                    <Assign sap:VirtualizedContainerService.HintSize="546,113" sap2010:WorkflowViewState.IdRef="Assign_10">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[isbnTemp]</OutArgument>
                       </Assign.To>
@@ -226,7 +226,7 @@
                         <InArgument x:TypeArguments="x:String">[currentQueueItem.SpecificContent("ISBN").ToString]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT search_query'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="545.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d6914da4-02b3-4dfa-bce1-aed76308ada9" Text="[isbnTemp]" Version="V3">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT search_query'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="546,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d6914da4-02b3-4dfa-bce1-aed76308ada9" Text="[isbnTemp]" Version="V3">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="https://isbndb.com/" CVScreenId="0278c5e0-f21a-48f5-90b2-a6b4d45ada06" CvTextArea="433, 415, 154, 15" CvTextArgument="Search ISBN or Title" CvType="Text" DesignTimeRectangle="404, 390, 1073, 66" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search_query' parentid='block-isbndbsearchblock' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search_query' parentid='block-isbndbsearchblock' tag='INPUT' type='text' class='search_query form-control' placeholder='Search ISBN or Title' aaname='' /&gt;" Guid="025ae3fd-c001-4db3-91a1-9c96921a8596" InformativeScreenshot="1c75465232a4d9ef6da87788e44cc41b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='The World&amp;apos;s Largest Book Database - ISBN Database | ISBNdb' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
                       </uix:NTypeInto.Target>
@@ -241,7 +241,7 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON search-button'" sap:VirtualizedContainerService.HintSize="545.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6914da4-02b3-4dfa-bce1-aed76308ada9" Version="V3">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON search-button'" sap:VirtualizedContainerService.HintSize="546,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6914da4-02b3-4dfa-bce1-aed76308ada9" Version="V3">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://isbndb.com/" DesignTimeRectangle="1409, 403, 38, 38" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='search-button' parentid='block-isbndbsearchblock' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-button' parentid='block-isbndbsearchblock' tag='BUTTON' type='submit' class='search-button btn btn-default' aaname='' /&gt;" Guid="264dd988-32b2-4c9e-a9dd-bef586c1c34a" InformativeScreenshot="3f844daa3843c7d2daa46f946b1098a2.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='The World&amp;apos;s Largest Book Database - ISBN Database | ISBNdb' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
                       </uix:NClick.Target>
@@ -256,7 +256,7 @@
                         </uix:VerifyExecutionOptions>
                       </uix:NClick.VerifyOptions>
                     </uix:NClick>
-                    <ui:UiElementExists DisplayName="Element Exists 'DIV'" Exists="[correcto_existe]" sap:VirtualizedContainerService.HintSize="545.6,139.2" sap2010:WorkflowViewState.IdRef="UiElementExists_7">
+                    <ui:UiElementExists DisplayName="Element Exists 'DIV'" Exists="[correcto_existe]" sap:VirtualizedContainerService.HintSize="546,139" sap2010:WorkflowViewState.IdRef="UiElementExists_7">
                       <ui:UiElementExists.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="049a9bb7-e8d2-4568-a471-0731a0853316" InformativeScreenshot="023223bcb780a632100c770bdc635fe1" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='block-multipurpose-business-theme-content' tag='DIV' /&gt;">
                           <ui:Target.TimeoutMS>
@@ -268,16 +268,16 @@
                         </ui:Target>
                       </ui:UiElementExists.Target>
                     </ui:UiElementExists>
-                    <ui:WriteCell Cell="[&quot;A&quot;+Indice]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="545.6,148" sap2010:WorkflowViewState.IdRef="WriteCell_1" SheetName="Hoja1" Text="[isbnTemp]" WorkbookPath="[ruta_salida]" />
-                    <If Condition="[not correcto_existe]" sap:VirtualizedContainerService.HintSize="545.6,3330.4" sap2010:WorkflowViewState.IdRef="If_1">
+                    <ui:WriteCell Cell="[&quot;A&quot;+Indice]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="546,148" sap2010:WorkflowViewState.IdRef="WriteCell_1" SheetName="Hoja1" Text="[isbnTemp]" WorkbookPath="[ruta_salida]" />
+                    <If Condition="[not correcto_existe]" sap:VirtualizedContainerService.HintSize="546,3326" sap2010:WorkflowViewState.IdRef="If_1">
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,505.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,504" sap2010:WorkflowViewState.IdRef="Sequence_5">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:SetTransactionStatus ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" ContinueOnError="True" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="Practica1_#9" sap:VirtualizedContainerService.HintSize="353.6,280" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_5" Reason="No se encontró el libro" Status="Failed" TransactionItem="[currentQueueItem]">
+                          <ui:SetTransactionStatus ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" ContinueOnError="True" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="Practica1_#9" sap:VirtualizedContainerService.HintSize="354,277" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_5" Reason="No se encontró el libro" Status="Failed" TransactionItem="[currentQueueItem]">
                             <ui:SetTransactionStatus.Analytics>
                               <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                             </ui:SetTransactionStatus.Analytics>
@@ -285,11 +285,11 @@
                               <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                             </ui:SetTransactionStatus.Output>
                           </ui:SetTransactionStatus>
-                          <ui:WriteCell Cell="[&quot;E&quot;+Indice]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="353.6,139.2" sap2010:WorkflowViewState.IdRef="WriteCell_2" SheetName="Hoja1" Text="Fallido" WorkbookPath="[ruta_salida]" />
+                          <ui:WriteCell Cell="[&quot;E&quot;+Indice]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="WriteCell_2" SheetName="Hoja1" Text="Fallido" WorkbookPath="[ruta_salida]" />
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="512,2654.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="512,2652" sap2010:WorkflowViewState.IdRef="Sequence_6">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="titleTemp" />
                             <Variable x:TypeArguments="x:String" Name="authorTemp" />
@@ -301,7 +301,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="innerText" DisplayName="Get Attribute 'TD'" sap:VirtualizedContainerService.HintSize="449.6,236.8" sap2010:WorkflowViewState.IdRef="GetAttribute_1">
+                          <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="innerText" DisplayName="Get Attribute 'TD'" sap:VirtualizedContainerService.HintSize="450,235" sap2010:WorkflowViewState.IdRef="GetAttribute_1">
                             <ui:GetAttribute.Result>
                               <OutArgument x:TypeArguments="x:String">[titleTemp]</OutArgument>
                             </ui:GetAttribute.Result>
@@ -316,8 +316,8 @@
                               </ui:Target>
                             </ui:GetAttribute.Target>
                           </ui:GetAttribute>
-                          <ui:WriteCell Cell="[&quot;B&quot;+Indice]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="449.6,148" sap2010:WorkflowViewState.IdRef="WriteCell_3" SheetName="Hoja1" Text="[titleTemp]" WorkbookPath="[ruta_salida]" />
-                          <ui:TextExists FormattedText="{x:Null}" DisplayName="Text Exists 'TH'" sap:VirtualizedContainerService.HintSize="449.6,188" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[existe_precio]" Text="List Price:">
+                          <ui:WriteCell Cell="[&quot;B&quot;+Indice]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="450,148" sap2010:WorkflowViewState.IdRef="WriteCell_3" SheetName="Hoja1" Text="[titleTemp]" WorkbookPath="[ruta_salida]" />
+                          <ui:TextExists FormattedText="{x:Null}" DisplayName="Text Exists 'TH'" sap:VirtualizedContainerService.HintSize="450,187" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[existe_precio]" Text="List Price:">
                             <ui:TextExists.Target>
                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7b83f69-6f6c-4cf3-8529-68e0f0d7c599" InformativeScreenshot="f622f2a8febd2b331dba298710cc446b" Selector="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='4' tag='TH' /&gt;">
                                 <ui:Target.TimeoutMS>
@@ -329,9 +329,9 @@
                               </ui:Target>
                             </ui:TextExists.Target>
                           </ui:TextExists>
-                          <If Condition="[existe_precio]" sap:VirtualizedContainerService.HintSize="449.6,1628" sap2010:WorkflowViewState.IdRef="If_2">
+                          <If Condition="[existe_precio]" sap:VirtualizedContainerService.HintSize="450,1627" sap2010:WorkflowViewState.IdRef="If_2">
                             <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,847.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,847" sap2010:WorkflowViewState.IdRef="Sequence_7">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:String" Name="priceTemp" />
                                 </Sequence.Variables>
@@ -340,7 +340,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="innerText" DisplayName="Get Attribute 'TD'" sap:VirtualizedContainerService.HintSize="353.6,236.8" sap2010:WorkflowViewState.IdRef="GetAttribute_2">
+                                <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="innerText" DisplayName="Get Attribute 'TD'" sap:VirtualizedContainerService.HintSize="354,235" sap2010:WorkflowViewState.IdRef="GetAttribute_2">
                                   <ui:GetAttribute.Result>
                                     <OutArgument x:TypeArguments="x:String">[authorTemp]</OutArgument>
                                   </ui:GetAttribute.Result>
